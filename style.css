@@ -3,9 +3,8 @@ img {
 }
 
 body {
+    background: url(../images/portal-wallpaper-5.jpg) no-repeat center center;
+    background-size: cover; 
     text-align: center;
     font-family: "Arial";
-    background: url (https://ak5.picdn.net/shutterstock/videos/15389950/thumb/10.jpg?i10c=img.resize(height:160)) no-repeat center center;
-    background-size: cover;
 }
-
