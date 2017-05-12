@@ -3,5 +3,5 @@ function sayThatWasEasy() {
   thatWasEasy.play();
 }
 $("#easy").on("click", sayThatWasEasy);
-
+$(document).keypress();
 
