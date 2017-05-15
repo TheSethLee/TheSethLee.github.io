@@ -5,10 +5,10 @@ function sayThatWasEasy() {
 
 $("#easy").on("click", sayThatWasEasy);
 
-$(document).keypress(delegateKeypress);
+$(document).keypress(delegateKeypress); 
 
 function delegateKeypress(event) {
-    if (event.keyCode == 32) {
+    if (event.charCode == 32) {
         $("#easy").trigger("click");
     }
 }
